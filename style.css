@@ -1,0 +1,50 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #000;
+  list-style-type: none;
+}
+
+section {
+  margin-top: 20px;
+  padding: 10px;
+  border-left: 2px solid #202020;
+  transition: border-left-color 0.7s linear;
+}
+
+section:hover {
+  border-left-color: #3f51b5;
+}
+
+a:hover {
+  color: #e6e6e6;
+}
+
+.container {
+  height: 100vh;
+  padding: 30px;
+  max-width: 900px;
+
+  /* border-left: 1px solid #202020; */
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-img {
+  min-width: 300px;
+  max-height: 300px;
+  margin: 0;
+}
+
+.about-img > img {
+  max-width: 250px;
+  border-radius: 100%;
+}
